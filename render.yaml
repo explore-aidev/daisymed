@@ -1,0 +1,11 @@
+# Exported from Render on 2024-10-18T22:14:13Z
+services:
+- type: web
+  name: daisymed
+  runtime: docker
+  repo: https://github.com/explore-aidev/daisymed
+  plan: free
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
